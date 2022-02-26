@@ -24,7 +24,7 @@ Route::middleware(['api'])->group(function () {
             Route::post('refresh', 'refresh')->name('refresh');
             Route::post('me', 'me')->name('me');
         });
-        Route::prefix('wallet')->controller(WalletController::class)->group(function () {
+        Route::prefix('wallet')->name('wallet.')->controller(WalletController::class)->group(function () {
             Route::post('enable', 'enable')->name('enable');
             Route::post('disable', 'disable')->name('disable');
             Route::post('create', 'create')->name('create');

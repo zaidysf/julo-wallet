@@ -37,8 +37,8 @@ Run the database migrations (**Set the database connection in .env before migrat
 
     ./vendor/bin/sail artisan migrate
 
-You can now access the API server.
-You can find all of available endpoints in (julo-wallet.postman_collection)[https://github.com/zaidysf/julo-wallet/blob/main/julo-wallet.postman_collection.json]
+You can now access the API server at [http://localhost](http://localhost).
+You can find all of available endpoints in [julo-wallet.postman_collection](https://github.com/zaidysf/julo-wallet/blob/main/julo-wallet.postman_collection.json)
 
 **TL;DR command list**
 
